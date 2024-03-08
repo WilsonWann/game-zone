@@ -3,5 +3,6 @@
     {
       "mode": "auto"
     }
-  ]
+  ],
+  "cSpell.words": ["keyval", "mantine", "partialize", "tsup", "zustand"]
 }
