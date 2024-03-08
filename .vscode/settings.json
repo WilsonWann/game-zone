@@ -4,5 +4,14 @@
       "mode": "auto"
     }
   ],
-  "cSpell.words": ["keyval", "mantine", "partialize", "tsup", "zustand"]
+  "cSpell.words": [
+    "bootloader",
+    "cardpicker",
+    "craco",
+    "keyval",
+    "mantine",
+    "partialize",
+    "tsup",
+    "zustand"
+  ]
 }

@@ -1,9 +1,11 @@
 import { Shell } from '@repo/ui';
 
+import { CardPicker } from './CardPicker';
+
 function App() {
   return (
     <Shell title='Card Picker'>
-      <div>Card Picker woohoo!!</div>
+      <CardPicker />
     </Shell>
   );
 }
