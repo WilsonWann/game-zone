@@ -12,11 +12,10 @@ module.exports = () => ({
     plugins: {
       add: [
         new ModuleFederationPlugin({
-          name: "gamezone",
+          name: "topnumber",
           filename: "remoteEntry.js",
-          remotes: {
-            "cardpicker": "cardpicker@http://localhost:3000/remoteEntry.js",
-            "topnumber": "topnumber@http://localhost:3002/remoteEntry.js",
+          exposes: {
+            "./TopNumber": "./src/TopNumber"
           },
           shared: {
             ...deps,

@@ -18,7 +18,7 @@ export const CardPicker = () => {
 
   return (
     <MantineProvider>
-      <Paper shadow='sm' radius={'md'} p={'md'} m='10' withBorder>
+      <Paper shadow='md' radius={'md'} p={'md'} m='10' withBorder>
         <Title>Card Picker!!!</Title>
         <Box
           style={{
